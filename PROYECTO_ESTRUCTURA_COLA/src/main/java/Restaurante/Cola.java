@@ -13,6 +13,7 @@ public class Cola {
         }
     }
 
+    //Metodos de la cola
     public boolean ColaVacia(){
         return node == null;
     }
@@ -35,7 +36,6 @@ public class Cola {
             node = node.sig;
             return true;
         } else {
-            // La cola está vacía, no se puede eliminar ningún elemento
             return false;
         }
     }

@@ -4,7 +4,8 @@ import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class Controlador implements ActionListener {
+public class Controlador implements ActionListener {//Codigo basura pero si elimamos no funciona el codigo
+    //Se ponene eventos a los botnes y se hace el controlador
     private Vista vista;
     private final Cola Clientes = new Cola();
     private final Cola Clientes2 = new Cola();

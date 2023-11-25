@@ -3,7 +3,7 @@ package Restaurante;
 import javax.swing.*;
 import javax.swing.border.LineBorder;
 import java.awt.*;
-public class Vista extends JFrame {
+public class Vista extends JFrame {//Vista con elementos pero sin eventos
     private JPanel Panel1;
     private JLabel lblBienvenida;
     private JButton btnIngreso;

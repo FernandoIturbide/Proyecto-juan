@@ -2,7 +2,7 @@ package Restaurante;
 
 import javax.swing.*;
 
-public final class Fondita {
+public final class Fondita {//No se usó directamente
     private final Cola Clientes = new Cola();
     private final Cola Clientes2 = new Cola();
 
